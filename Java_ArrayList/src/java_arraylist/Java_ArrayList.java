@@ -17,6 +17,7 @@ public class Java_ArrayList {
     /*Adicionando dados em uma ArrayList */
     public static void addDadosArrayList(){
         // instanciando classe Arraylist
+        System.out.println("---------- ARRAYLIST ----------");
         ArrayList<String> listaNome = new ArrayList<>();
         listaNome.add("EducaCiencia FastCode");
         listaNome.add("CobraDev");
@@ -25,6 +26,7 @@ public class Java_ArrayList {
     
     /* Buscando Nome na lista por posição */
     public static void buscaNomeListaPorPosicao() {
+        System.out.println("---------- ARRAYLIST ----------");
         ArrayList<String> listaNome = new ArrayList<>();
         listaNome.add("EducaCiencia FastCode");
         listaNome.add("CobraDev");
@@ -34,6 +36,7 @@ public class Java_ArrayList {
     
     /* limpando lista utilizando Clear */
     public static  void limpaListaClear() {
+        System.out.println("---------- ARRAYLIST ----------");
         ArrayList<String> listaNome = new ArrayList<>();
         listaNome.add("EducaCiencia FastCode");
         listaNome.add("CobraDev");
@@ -45,6 +48,7 @@ public class Java_ArrayList {
     
     /* limpando lista utilizando RemoveAll */
     public static void limpaListaRemoveAll(){
+        System.out.println("---------- ARRAYLIST ----------");
         ArrayList<String> listaNome = new ArrayList<>();
         listaNome.add("EducaCiencia FastCode");
         listaNome.add("CobraDev");
@@ -56,6 +60,7 @@ public class Java_ArrayList {
     
     /*excluindo dado da lista utilizando Remove*/
     public static void removeDadoLista() {
+        System.out.println("---------- ARRAYLIST ----------");
         ArrayList<String> listaNome = new ArrayList<>();
         listaNome.add("EducaCiencia FastCode");
         listaNome.add("CobraDev");
@@ -66,6 +71,7 @@ public class Java_ArrayList {
     }
     
     public static void atualizaDadoLista() {
+        System.out.println("---------- ARRAYLIST ----------");
         ArrayList<String> listaNome = new ArrayList<>();
         listaNome.add("EducaCiencia FastCode");
         listaNome.add("CobraDev");
